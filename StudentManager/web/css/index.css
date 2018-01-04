@@ -1,0 +1,319 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 11, 2017, 3:20:17 PM
+    Author     : admin
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 5, 2017, 4:11:23 PM
+    Author     : admin
+*/
+
+
+
+
+.header{
+    width:100%;
+    display:flex;
+    height:150px;
+    background-color:white;
+    z-index: 1;
+}
+
+.headertext{
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size:30px;
+    margin-left:20px;
+    border: 1px solid;
+    border-color:#D4D4D4;
+}
+
+.input{
+    display:flex;
+    margin-top:20px;
+}
+
+.login :link{
+    float:right;
+    margin-right:5px;
+}
+
+.login{
+    position:relative;
+    top:10px;
+    left:200px;
+}
+
+
+.headerright{
+    position: absolute;
+    top:80px;
+    right:70px;
+    height:55px;
+    background-color: #2d2d2d;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    padding-top:15px;
+    box-shadow: 0px 5px 5px #565656;
+}
+
+.headerright a{ 
+    text-decoration: none;
+    color:white;
+}
+
+.modal-body input,select{
+    margin-top:10px;
+}
+
+
+.form-group{
+    margin-left:10px;
+}
+
+.btn{
+    margin-left:10px;
+}
+
+
+.middle{
+    display:flex;
+}
+
+
+.mainleft a:hover{
+    background-color:#D7D7D6;
+}
+
+.mainleft a:focus{
+    background-color:#3D90DF;
+    color:white;
+}
+
+thead{
+    background-color:#6291F0; 
+}
+
+th{
+    border-right:1px solid white;
+}
+
+
+
+table{
+    border:1px solid #D4D4D4;
+    background-color:white;
+}
+
+.rightside{
+    width:77%;
+    top:100px;
+    background-color:#F1EFEF;
+    padding-left:10px;
+}
+
+.mainleft a{
+    text-decoration:none;
+    display:flex;
+    font-size:15px;
+    padding:15px;
+    border-bottom:1px solid #D4D4D4;
+}
+
+
+.middle{
+    background-color:#F1EFEF;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-bottom:20px;
+}
+
+
+body{
+    margin:0px;
+}
+
+.logged{
+    border-bottom:1px solid #D4D4D4;
+    padding-bottom:25px;
+}
+
+.leftside{
+    width:23%;
+    height:100%;
+    background-color:white;
+    border:1px solid #D4D4D4;
+    margin-top:20px;
+    box-shadow: -5px 5px 5px #D4D4D4;
+}
+
+.mainleft{
+    background-color:white;
+}
+
+.headerleft{
+    margin-top:20px;
+    margin-left:10px;
+}
+
+
+.img{
+    text-align:center;
+    margin-top: -20px;
+    margin-left:70px;
+}
+
+
+.textleft{
+    float:right;
+    text-align: center;
+    margin-right:30px;
+    margin-top:10px;
+}
+
+.textright{
+    font-size:16px;
+    line-height:35px;
+    padding:10px;
+}
+
+
+
+.lynk:hover{
+    font-size:20px;
+    transition: font-size 0.5s ease-in-out;
+}
+
+.pagger{
+    font-size:20px;
+    text-align: right;  
+    margin-bottom:30px;
+    margin-top:30px;
+
+    margin-right:20px;
+}
+
+.pagger a{
+    text-decoration: none;
+}
+
+.accountdetail{
+    width:70%;
+    margin:auto;
+    margin-top:15px;    
+    font-size:20px;
+    background-color:white;
+    border:1px solid #D4D4D4;
+    padding:30px;
+}
+
+
+.headerright a {
+  margin-left:10px;
+  margin-right:10px;
+  cursor: pointer;
+  color: white;
+  transform: translate3d(-50%, -50%, 0);
+  padding: 0.7em calc(0.7em * 1.2);
+  border: 3px solid transparent;
+  position: relative;
+}
+
+.headerright a:after {
+  position: absolute;
+  content: '';
+  bottom: -3px;
+  left: calc(0.7em * 1.2);
+  right: calc(0.7em * 1.2);
+  height: 3px;
+  background: #f26522;
+  z-index: -1;
+  transition: transform 0.8s cubic-bezier(1, 0, 0.37, 1) 0.2s, right 0.2s cubic-bezier(0.04, 0.48, 0, 1) 0.6s, left 0.4s cubic-bezier(0.04, 0.48, 0, 1) 0.6s;
+  transform-origin: left;
+}
+
+.line {
+  position: absolute;
+  background: #f26522;
+}
+.line.-right, .line.-left {
+  width: 3px;
+  bottom: -3px;
+  top: -3px;
+  transform: scale3d(1, 0, 1);
+}
+.line.-top, .line.-bottom {
+  height: 3px;
+  left: -3px;
+  right: -3px;
+  transform: scale3d(0, 1, 1);
+}
+.line.-right {
+  right: -3px;
+  transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.23s;
+  transform-origin: top;
+}
+.line.-top {
+  top: -3px;
+  transition: transform 0.08s linear 0.43s;
+  transform-origin: left;
+}
+.line.-left {
+  left: -3px;
+  transition: transform 0.08s linear 0.51s;
+  transform-origin: bottom;
+}
+.line.-bottom {
+  bottom: -3px;
+  transition: transform 0.3s cubic-bezier(1, 0, 0.65, 1.01);
+  transform-origin: right;
+}
+
+.headerright a:hover .text,
+.headerright a:active .text {
+  transform: translate3d(0, 0, 0);
+  transition: transform 0.6s cubic-bezier(0.2, 0, 0, 1) 0.4s;
+}
+.headerright a:hover:after,
+.headerright a:active:after {
+  transform: scale3d(0, 1, 1);
+  right: -3px;
+  left: -3px;
+  transform-origin: right;
+  transition: transform 0.2s cubic-bezier(1, 0, 0.65, 1.01) 0.17s, right 0.2s cubic-bezier(1, 0, 0.65, 1.01), left 0s 0.3s;
+}
+.headerright a:hover .line,
+.headerright a:active .line {
+  transform: scale3d(1, 1, 1);
+}
+.headerright a:hover .line.-right,
+.headerright a:active .line.-right {
+  transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.2s;
+  transform-origin: bottom;
+}
+.headerright a:hover .line.-top,
+.headerright a:active .line.-top {
+  transition: transform 0.08s linear 0.4s;
+  transform-origin: right;
+}
+.headerright a:hover .line.-left,
+.headerright a:active .line.-left {
+  transition: transform 0.08s linear 0.48s;
+  transform-origin: top;
+}
+.headerright a:hover .line.-bottom,
+.headerright a:active .line.-bottom {
+  transition: transform 0.5s cubic-bezier(0, 0.53, 0.29, 1) 0.56s;
+  transform-origin: left;
+}
